@@ -23,7 +23,7 @@ plt.hist(x, bins=[0,1,2,3,4,5,6],color="red") #los bins son los rangos que quier
 plt.show()
 ```
 
-
+![Image text](https://github.com/anthonycalderonm/Tutorial-python/blob/main/Histograma.png)
 
 
 ```python
@@ -36,9 +36,10 @@ y = np.array([10.4,6.8,4.74,3.7,2.1]) #array de numeros en el eje y.
 plt.xlabel("Resistencia (kΩ)") #rotular eje x
 plt.ylabel("Corriente (mA)") #rotular eje y
 
-colors = np.array(["red","green","blue","black","pink"]) #4.	Se creo una variable llamada colors, en donde se asocia un color a cada par de ejes coordenados.
+colors = np.array(["red","green","blue","black","pink"]) #se creo una variable llamada colors, en donde se asocia un color a cada par de ejes coordenados.
 
 plt.scatter(x, y, c=colors)
 
 plt.show()
 ```
+![Image text](https://github.com/anthonycalderonm/Tutorial-python/blob/main/Scatterplot.png)
